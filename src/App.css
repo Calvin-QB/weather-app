@@ -1,0 +1,13 @@
+body {
+  background-image: url("https://wallpapercrafter.com/desktop/109084-mountains-trees-Moon-landscape-stars-artwork-minimalism-mist.jpg");
+  /* additional styling here */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 640px) {
+  body {
+    height: 200vh;
+    background-position: center;
+  }
+}
