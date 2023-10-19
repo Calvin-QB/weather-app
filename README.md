@@ -1,4 +1,3 @@
-```markdown
 # Weather App
 
 Developed using Vite v4.0.4, this React-based weather application offers real-time weather updates through an intuitive user interface.
