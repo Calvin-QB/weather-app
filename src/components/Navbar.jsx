@@ -28,7 +28,7 @@ function Navbar() {
       <nav
         className={` ${
           showMenu ? "translate-x-0" : "translate-x-full"
-        } transition-transform duration-300 flex flex-col pt-20 inset-y-0 right-0 left-32 fixed backdrop-brightness-50 backdrop-blur-sm md:backdrop-blur-none md:backdrop-brightness-100 md:translate-x-0 md:flex-row items-center md:basis-1/3 md:pt-0 md:justify-end md:static gap-5`}
+        } transition-transform duration-300 flex flex-col pt-20 inset-y-0 right-0 left-32 fixed backdrop-brightness-50 backdrop-blur-sm md:backdrop-blur-none md:backdrop-brightness-100 md:translate-x-0 md:flex-row items-center md:basis-1/3 md:pt-0 md:justify-end md:static border gap-5`}
       >
         <button
           onClick={handleUnitClick}
